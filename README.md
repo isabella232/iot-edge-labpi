@@ -17,9 +17,11 @@ From the command line:
 - Copy and paste the `export` message that shows up on screen to set the `NODE_INCLUDE` and `NODE_LIB` environment variables
 - `./build.sh --enable-nodejs-binding`
   - If you see a libuv dependency missing when attempting to run this command, try:
-    'sudo apt-get install -y libtool autoconf'
-    './build.sh --disable-native-remote-modules --disable-nodejs-remote-modules'
-  - and run './build.sh --enable-nodejs-binding' again
+    ```
+	sudo apt-get install -y libtool autoconf
+    	./build.sh --disable-native-remote-modules --disable-nodejs-remote-modules
+    ```
+  - and run `./build.sh --enable-nodejs-binding` again
 - `cd ../samples/nodejs_simple_sample/nodejs_modules/`
 - `npm install`
 
