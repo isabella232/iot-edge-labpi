@@ -1,4 +1,4 @@
-## Prerequisites
+# Prerequisites
 - Install [Node.js](https://nodejs.org/)
 
 - The following packages are needed and they can be installed with the following commands:
@@ -19,7 +19,7 @@ From the command line:
   - If you see a libuv dependency missing when attempting to run this command, try:
     ```
 	sudo apt-get install -y libtool autoconf
-    	./build.sh --disable-native-remote-modules --disable-nodejs-remote-modules
+	./build.sh --disable-native-remote-modules --disable-nodejs-remote-modules
     ```
   - and run `./build.sh --enable-nodejs-binding` again
 - `cd ../samples/nodejs_simple_sample/nodejs_modules/`
