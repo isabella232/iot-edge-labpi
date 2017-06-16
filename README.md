@@ -28,7 +28,7 @@ From the command line:
 ## Run IoT Gateway Modules
 On a terminal window follow these steps:
 - `cd <azure_iot_gateway_sdk_root>/samples/nodejs_simple_sample/src/`
-- `cd ../../../build/samples/nodejs_simple_sample/`
-- `./nodejs_simple_sample ../../../samples/nodejs_simple_sample/src/gateway_sample_mod.json`
+- `cd ../build/samples/nodejs_simple_sample/`
+- `./nodejs_simple_sample ../../samples/nodejs_simple_sample/src/gateway_sample_mod.json`
 
 #TODO Write module to use native IoT Hub and NOT NodeJS Iot Hub SDK.
