@@ -22,7 +22,7 @@ module.exports = {
                 if (res) {
                     console.log(`GrovePi version: ${board.version()}`);
                 }
-                var TempAndHumiditySensor = new DHTSensor(4, 0, 'f');
+                var TempAndHumiditySensor = new DHTSensor(4, DHTSensor.Version.DHT11);
                 console.log('Temperature and Humidity sensor activated');
                 TempAndHumiditySensor.stream(4000, function(res) {
                     this.broker.publish({
