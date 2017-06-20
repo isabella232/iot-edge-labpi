@@ -8,8 +8,6 @@
     sudo apt-get install curl build-essential libcurl4-openssl-dev git cmake pkg-config libssl-dev uuid-dev valgrind libglib2.0-dev libtool autoconf
     ```
 
-    > Note: libglib2.0-dev is required for ble module/sample.
-
 From the command line:
 - `cd iot-edge-lab/tools/`
 - `./build_nodejs.sh`
