@@ -20,14 +20,16 @@
             "args": null
         },
         {
-            "name": "node_sensor",
+            "name": "node_motion_sensor",
             "loader": {
                 "name": "node",
                 "entrypoint": {
-                    "main.path": "../../../samples/nodejs_simple_sample/nodejs_modules/sensor.js"
+                    "main.path": "../../../samples/nodejs_simple_sample/nodejs_modules/motionsensor.js"
                 }
             },
-            "args": null
+            "args": {
+                "gpio_pin_number": "insert gpio pin of sensor here"
+            }
         },
         {
             "name": "Logger",
@@ -48,7 +50,7 @@
             "sink": "Logger"
         },
         {
-            "source": "node_sensor",
+            "source": "node_motion_sensor",
             "sink": "node_printer"
         }
     ]
