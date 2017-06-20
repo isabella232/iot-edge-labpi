@@ -35,7 +35,7 @@ module.exports = {
                 },
                 content: message
             });
-        }, 500);
+        }, 4000);
     },
 
     receive: function(message) {
